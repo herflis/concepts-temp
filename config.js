@@ -29,6 +29,7 @@ const config = {
 	},
 	"sidebar": {
 		"forcedNavOrder": [
+      "/content",
       "/content-models",
       "/content-tree",
       "/content-relations",
