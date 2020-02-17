@@ -5,3 +5,4 @@ metaDescription: "sensenet Role based Permissions"
 ---
 
 # Role based Permissions
+# usage (advantages)
