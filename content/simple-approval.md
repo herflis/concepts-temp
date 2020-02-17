@@ -5,3 +5,5 @@ metaDescription: "sensenet Simple approval"
 ---
 
 # Simple approval
+# steps
+# Usage (use cases)
