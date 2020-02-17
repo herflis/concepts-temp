@@ -5,3 +5,4 @@ metaDescription: "sensenet Document level Permissions"
 ---
 
 # Document level Permissions
+# usage (advantages, when to use)
