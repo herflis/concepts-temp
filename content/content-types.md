@@ -5,3 +5,7 @@ metaDescription: "sensenet Content Types"
 ---
 
 # Content Types
+# default content types
+# custom content type
+# content type hierarchy
+# usage (advantages)
