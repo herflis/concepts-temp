@@ -7,3 +7,4 @@ metaDescription: "sensenet Office Online Editing"
 # Office Online Editing
 # collaboration
 # usage (advantages)
+# Under the hood (oos server, edit and readonly mode)
