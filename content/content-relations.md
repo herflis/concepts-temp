@@ -5,7 +5,9 @@ metaDescription: "sensenet Content Relations"
 ---
 
 # Content relations
+# Content repository tree
 # Parent
 # Child
+# Links
 # Reference
 # Allowed child type
