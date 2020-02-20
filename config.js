@@ -41,6 +41,7 @@ const config = {
       "/user-management",
       "/role-based-permissions",
       "/document-level-permissions",
+      "/custom-roles-and-permissions",
       "/search",
       "/content-types",
       "/office-online-editing",
