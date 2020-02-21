@@ -7,7 +7,7 @@ metaDescription: "sensenet Document level Permissions"
 # Document level Permissions
 
 # intro
-sensenet offers you the ability to set permissions even on document level in addition to the role-based permission [link] logic.
+sensenet offers you the ability of setting permissions even on document level in addition to the role-based permission [link] logic.
 advantage
 Using content (or document) level permissions, you can set who has access to an individual content and allow/restrict actions one by one.
 
@@ -26,4 +26,3 @@ It is possible to manage content (document) level permission settings through th
 
 # pro tip
 Useful when you want to give access to a document only for specific users (and not by role).
-
