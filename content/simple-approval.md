@@ -10,7 +10,7 @@ Simple approval adds an extra step to the default publishing process. When appro
 
 # Indicating roles and permissions
 
-It is important to differentiate roles like editor, approver and so on. The process works the best if permissions are defined correctly and the whole process is tailor made to the business logic.
+It is important to differentiate roles like editor, approver and so on. Approval feature works best if permissions are defined correctly and the whole process is tailor made to the business logic.
 
 # steps
 [possible illustration of the steps could be something like that](https://images.ctfassets.net/fo9twyrwpveg/1EQtohKijakksU2KwS262w/69c5b114908eba58787c29ce1d1ad737/Step_11.png?fm=jpg&fl=progressive&q=90&w=2156)
