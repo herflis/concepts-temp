@@ -5,3 +5,9 @@ metaDescription: "sensenet Actions"
 ---
 
 # Actions
+
+# Built-in actions
+
+# Scenarios
+
+# Making custom action lists
