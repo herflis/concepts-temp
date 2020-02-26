@@ -18,6 +18,8 @@ The content repository contains many different types of content. Content vary in
 
 # Fields
 
+generic content main fields
+
 # Modeling a project workspace
 
 # Modeling a contract
