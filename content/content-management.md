@@ -22,6 +22,7 @@ All the basic content management actions are available in sensenet, such as:
 -search
 - upload / download
 - organize (structure)
+
 To learn more go to Actions [link]
 
 # Anybody can do anything?
