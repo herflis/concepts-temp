@@ -9,5 +9,7 @@ metaDescription: "sensenet Content Relations"
 # Parent
 # Child
 # Links
-# Reference
-# Allowed child type
+# Multiple links
+# Binaries
+# Attachments
+# Allowed child types
