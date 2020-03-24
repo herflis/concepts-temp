@@ -5,6 +5,8 @@ metaDescription: "sensenet Search"
 ---
 
 # Search
+https://community.sensenet.com/docs/search-engine/
+https://wiki.sensenet.com/query_syntax.html
 # Full text search
 # Metadata indexing, searching by fields
 https://wiki.sensenet.com/Field_Indexing.html
