@@ -10,7 +10,6 @@ https://community.sensenet.com/docs/content-type/
 # Default content types
 # Content type hierarchy
 # Breaking inheritance
-https://community.sensenet.com/docs/ctd/
 # Field settings and validations
   - appearance
   - validation
@@ -18,4 +17,5 @@ https://community.sensenet.com/docs/ctd/
   - disableing
 # Custom content type
 # Content type definitions
+https://community.sensenet.com/docs/ctd/
 # Usage (advantages)
