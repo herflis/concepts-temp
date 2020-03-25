@@ -14,15 +14,24 @@ sensenet is built around content, so they are also users ang groups. Every conte
 
 # Built-in groups and users
 sensenet offers special and built-in groups and users by default. All users and almost all groups are stored in the /Root/IMS folder. It is possible jto create groups outside the IMS folder. These are local groups created under workspaces.
+
 •	public domain (/Root/IMS/Public) for the users
 •	builtin domain (hidden) for technical users and groups that cannot be modified but its capabilities could be used in development
+
 o	Visitor
+
 o	Everyone
+
 o	Owners
+
 o	IdentifiedUsers
+
 o	RegisteredUsers
+
 o	Somebody
+
 https://wiki.sensenet.com/Special_and_built-in_groups_and_users.html
+
 •	built-in public groups/roles for basic tasks -> administrators, developers, editors
 
 
