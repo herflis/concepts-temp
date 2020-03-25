@@ -16,23 +16,19 @@ sensenet offers special and built-in groups and users by default. All users and 
 
 Built-in groups in sensenet are regular groups, meaning their membership can be freely modified. They are used in the default Content Repository structure extensively, but no hard-coded logic is built on them (except for the Administrators group, please do not delete that one). This means you can freely change or replace these groups with your own custom groups in your permission settings. The best practice however is that you build on them, using the suggested purpose in the following sections.
 
-•	public domain (/Root/IMS/Public) for the users
+- public domain (/Root/IMS/Public) for the users
 
-•	builtin domain (hidden) for technical users and groups that cannot be modified but its capabilities could be used in development
+- builtin domain (hidden) for technical users and groups that cannot be modified but its capabilities could be used in development
 
-o	Visitor
-
-o	Everyone
-
-o	Owners
-
-o	IdentifiedUsers
-
-o	RegisteredUsers
-
-o	Somebody
+   - Visitor
+   - Everyone
+   - Owners
+   - IdentifiedUsers
+   - RegisteredUsers
+   - Somebody
 
 # Built-in public groups/roles for basic tasks
+
 Administrators
 
 Administrators considered to be the most powerful users in the system. This may be true for some features but not necessarily for all content. In the default structure administrators have access to everything, but when you build your project and add your custom content, it is perfectly fine if you hide something from the Administrators group. For example you may remove their permissions from confidential documents completely.
