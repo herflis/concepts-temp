@@ -31,7 +31,7 @@ Built-in groups in sensenet are regular groups, meaning their membership can be 
 
 Administrators
 
-Administrators considered to be the most powerful users in the system. This may be true for some features but not necessarily for all content. In the default structure administrators have access to everything, but when you build your project and add your custom content, it is perfectly fine if you hide something from the Administrators group. For example you may remove their permissions from confidential documents completely.
+Administrators considered to be the most powerful users in the system. This may be true for some features but not necessarily for all content. In the default structure, administrators have access to everything, but when you build your project and add your custom content, it is perfectly fine if you hide something from the Administrators group. For example you may remove their permissions from confidential documents completely.
 
 By default only the Admin user is a member of this group, but you can add more members as you like. Please use this group for administrative permissions instead of single users.
 
