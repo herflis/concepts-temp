@@ -23,3 +23,5 @@ It is possible to enable notifications for every state change of a specific docu
 # Usage (use cases)
 
 Could be useful when people with different roles (author, editor) are working on a document. The feature makes change requests and approval as easy as possible, grants transparency and serve as an extra line of defense for keeping mission critical content error free.
+
+https://community.sensenet.com/docs/versioning-and-approval/
