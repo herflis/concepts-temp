@@ -8,7 +8,7 @@ sensenet offers you a sophisticated permission system, giving you the possibilit
 
 # Advantage
 Using role-based permissions, you can assign users to roles taking advantage of predefined permission settings.
-built-in and custom permissions
+# Built-in and custom permissions
 There is a set of basic built-in permissions, such as See, Open, Save, Delete etc., and it is even possible to add custom ones as well.
 •	See: you only have the information that the content exists (content metadata cannot be accessed)
 •	Open: you have access to content metadata
