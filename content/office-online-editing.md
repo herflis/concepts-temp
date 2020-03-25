@@ -4,8 +4,6 @@ metaTitle: "sensenet - Office Online Editing"
 metaDescription: "sensenet Office Online Editing"
 ---
 
-# Office Online Editing
-
 # collaboration
 sensenet enables collaborative content management, thanks to office online editing.
 

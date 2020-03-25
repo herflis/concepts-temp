@@ -4,8 +4,6 @@ metaTitle: "sensenet - Content"
 metaDescription: "sensenet Content"
 ---
 
-# Content
-
 Content is the basic block for storing information in sensenet. A content can be any kind of data, user, document, workspace, memo, task, etc. Using content items everywhere unlocks a great deal of exceptional features that make your experience as a user more seamless, and your job as a developer a lot easier.
 
 # Where can I find content?

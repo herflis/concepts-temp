@@ -4,7 +4,6 @@ metaTitle: "sensenet - Role based Permissions"
 metaDescription: "sensenet Role based Permissions"
 ---
 
-# Role based Permissions
 sensenet offers you a sophisticated permission system, giving you the possibility to apply permission rules according to the logic you prefer.
 
 # advantage
@@ -24,3 +23,5 @@ It is possible to manage the role-based permission settings through the admin su
 
 # pro tip
 Define roles based on the business logic right at the beginning of your project so it will be much easier to handle permission related tasks (like add/remove a user) in the long run.
+
+-> built-in roles for SNaaS users (Administrators, Editors, Developers)

@@ -5,15 +5,17 @@ metaDescription: "sensenet Content Types"
 ---
 
 # Content Types
-# default content types
-# content type hierarchy
-# breaking inheritance
-# content type definitions
+https://community.sensenet.com/docs/content-type/
+
+# Default content types
+# Content type hierarchy
+# Breaking inheritance
 # Field settings and validations
   - appearance
   - validation
   - default value, etc
   - disableing
-# custom content type
-# content type definitions
-# usage (advantages)
+# Custom content type
+# Content type definitions
+https://community.sensenet.com/docs/ctd/
+# Usage (advantages)

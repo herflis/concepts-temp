@@ -4,15 +4,14 @@ metaTitle: "sensenet - User Management"
 metaDescription: "sensenet User Management"
 ---
 
-# User Management
-
-# What is it for?
 User management is a core function of the business, that includes user creation and assigning roles to the users. Effective user management contains adjusting the access rights of the users who change role, get promoted or leave the company. It is important to close these changes in short time, this way we can increase employee productivity.
 
 # Users and groups as content
+
 sensenet is built around content, so they are also users ang groups. Every content is built up by fields, so for example a user as content has a name field and password field (among others). The type of the content is called content type, and it defines a set of fields a content possesses, and also the behavior of it.
 
 # Built-in groups and users
+
 sensenet offers special and built-in groups and users by default. All users and almost all groups are stored in the /Root/IMS folder. It is possible jto create groups outside the IMS folder. These are local groups created under workspaces.
 
 Built-in groups in sensenet are regular groups, meaning their membership can be freely modified. They are used in the default Content Repository structure extensively, but no hard-coded logic is built on them (except for the Administrators group, please do not delete that one). This means you can freely change or replace these groups with your own custom groups in your permission settings. The best practice however is that you build on them, using the suggested purpose in the following sections.
@@ -57,6 +56,21 @@ RegisteredUsers
 
 The Registered users group is a regular group, you may modify its members freely; the only specialty of it is that the sample public registration workflow adds users to it. They should have slightly less permissions than identified users (see above) because the registration can be very open in a public portal. This is why there are not many permission settings for this group in the default structure.
 
+# How to create a new role
+
+- public domain (/Root/IMS/Public) for the users
+
+- builtin domain (hidden) for technical users and groups that cannot be modified but its capabilities could be used in development
+   - Visitor
+   - Everyone
+   - Owners
+   - IdentifiedUsers
+   - RegisteredUsers
+   - Somebody
+
+   https://wiki.sensenet.com/Special_and_built-in_groups_and_users.html
+
+- built-in public groups/roles for basic tasks -> administrators, developers, editors
 
 # Permission
 sensenet offers you a sophisticated permission system, giving you the possibility to apply permission rules according to the logic you prefer.
@@ -68,4 +82,3 @@ To learn more go to [role based permission]
 In sensenet the default location of users and groups is the IMS folder. However, we can create groups under workspaces too. The main purpose of Workspace local groups is to help permission management inside workspaces. They are located under the Groups system folder in workspaces and workspace permissions can be defined for these groups. If the local group structure is properly configured, the only thing workspace administrators should do when a new user is assigned to a workspace is to add them to the proper local group(s) instead of assigning permissions to individual users. In sensenet there are three predefined local groups (Owners, Members, Visitors) that cover the most important use cases but there are no limitations to add or remove groups or modify the default behavior. Groups are contents too (like almost everything in sensenet), so you can add additional groups to workspaces as easily as you add folders. Populating a group with users is an easy task as well using our group management GUI with instant search capability.
 
 # How to create a new role
-
