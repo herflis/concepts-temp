@@ -14,6 +14,8 @@ In case of Public sharing (see below) it is not even necessary to provide an ema
 
 # How do I share technically?
 
+// TODO: link to api docs
+
 # Sharing levels
 
 When you share something, you will be presented with an option for what do you want your target users to do with the content. For example a read-only access is represented by the `Open` sharing level. If we want to let users modify the content, that requires the `Edit` level.
