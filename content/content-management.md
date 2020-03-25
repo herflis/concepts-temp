@@ -26,7 +26,7 @@ All the basic content management actions are available in sensenet, such as:
 
 To learn more go to [Actions](/concepts/actions)
 
-# Anybody can do anything?
+# Can anybody do anything?
 
 Content management is a collaborative process and every user has his own part in it. At this point we can talk about roles and permissions. [role based permission, document level permission], so basically what the user can or cannot do with the certain content.
 There is a set of basic built-in permissions, such as See, Open, Save, Delete etc., and it is even possible to add custom ones as well.
