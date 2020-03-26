@@ -22,5 +22,5 @@ To enable lifespan on a content item, do the following:
 All of these fields are defined on the `GenericContent` content type so they are inherited to all other content types both built-in in custom ones.
 
 To enable lifespan in a query:
-- add `.LIFESPAN:ON` to the query. See [this page](/api-docs/querying/04-date#querybylifespanvalidity) for details.
-- or use `enablelifespanfilter=true` in an OData request url. See [this page](/api-docs/basic-concepts/08-lifespan) for details.
+- add `.LIFESPAN:ON` to the query. See [this page](/api-docs/querying/04-date#querybylifespanvalidity) for an example.
+- or use `enablelifespanfilter=true` in an OData request url. See [this page](/api-docs/basic-concepts/08-lifespan) for an example.

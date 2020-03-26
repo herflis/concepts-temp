@@ -8,7 +8,7 @@ Content is the basic block for storing information in sensenet. A content can be
 
 # Where can I find content?
 
-The foundation of sensenet is the content repository, where documents, tasks, users, projects – everything is a content. It is the fundamental building block of the system that makes content management easy and powerful at the same time. The content repository is basically a tree structure of the various stored items.
+The foundation of sensenet is the content repository, where documents, tasks, users, projects – everything is a content. It is the fundamental building block of the system that makes content management easy and powerful at the same time. The content repository is basically a [tree structure](/concepts/content-tree) of the various stored items.
 
 A specific content is identified by a unique id and also by its path in the repository - the relative path to the root content. The root of the content repository is a content at the /Root path, and all other items are placed somewhere under this root content.
 

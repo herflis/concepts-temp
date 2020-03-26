@@ -4,9 +4,9 @@ metaTitle: "sensenet - Content Tree"
 metaDescription: "sensenet Content Tree"
 ---
 
-sensenet content repository is basically a tree structure of the various stored content. A specific content is identified by a unique number (id) and also by its path. The root of the tree is at /Root path, all other content is placed somewhere under this root content - for example the users are placed at /Root/IMS.
+sensenet content repository is basically a tree structure of the various stored content. A specific content is identified by a unique number (id) and also by its path. The root of the tree is at `/Root` path, all other content is placed somewhere under this root content - for example the users are placed at `/Root/IMS`.
 
-# Structured storage of Content
+# Structured storage of content
 
 # Content access and url resolution
 
