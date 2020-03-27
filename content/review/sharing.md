@@ -12,10 +12,6 @@ It is not necessary to know much about the user you want to share a content with
 
 In case of Public sharing (see below) it is not even necessary to provide an email: it is enough to simply generate a public sharing link that you can send or post anywhere.
 
-# How do I share technically?
-
-// TODO: link to api docs
-
 # Sharing levels
 
 When you share something, you will be presented with an option for what do you want your target users to do with the content. For example a read-only access is represented by the `Open` sharing level. If we want to let users modify the content, that requires the `Edit` level.
@@ -60,9 +56,9 @@ By default the notification feature for sharing is switchen on, but is possible 
 
 # Configuration
 
-You can switch ON or OFF notifications or customize the notification emails using the Sharing settings which can be found at `/Root/System/Settings/Sharing.settings` or in the `Setup` menu on the admin-ui.
+You can switch ON or OFF notifications and also customize the notification emails using the Sharing settings which can be found at `/Root/System/Settings/Sharing.settings` or in the `Setup` menu on the admin-ui.
 
-Having different mail subjects and bodies per subtree is possible, because the keys themselves (see below) are coming from settings.
+Having different mail subjects and bodies per subtree is possible as well, because the keys themselves (see below) are coming from settings.
 
 ```json
 {
@@ -72,6 +68,10 @@ Having different mail subjects and bodies per subtree is possible, because the k
    "NotificationMailBodyKey": "NotificationMailBody"
 }
 ```
+
+# How do I share technically?
+
+If you are interested in how to share and manage sharing related content through REST API check the [API docs](/api-docs/sharing). Every above mentioned feature and functionality is available through the API.
 
 # Sharing FAQ
 
