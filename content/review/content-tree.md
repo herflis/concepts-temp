@@ -8,7 +8,7 @@ sensenet content repository is basically a tree structure of the various stored 
 
 # Structured storage of content
 
-Tree structure lets you orginize, group your content easily by creating separate subtrees. It's not only important because of the possibility the configure content accessibility for different types of users on different parts of the tree, but also because of the inheritence of several things like content types' underlying business logic, metadata field configurations and settings.
+Tree structure lets you organize, group your content easily by creating separate subtrees. It's not only important because of the possibility to configure content accessibility for different types of users on different parts of the tree, but also because of the inheritence of several things like content types' underlying business logic, metadata field configurations and settings.
 
 This kind of data storage makes it possible to store content of multiple different projects (public website, intranet, document management app, etc.) in one repository. By creating multiple subtrees with folders or workspaces you can build up custom content structures and every subtree can have its own permission settings, roles and configurations, considering who can access it and what it will be used for.
 
@@ -22,7 +22,7 @@ As it is mentioned above every content in the content repository is not only ide
 
 # Permission inheritance
 
-As in sensenet content is stored in a huge tree with a single root, when you set a permission on a container item on a higher level (e.g. a document library or a workspace) it will be inherited by its children. This way you do not have to set permissions on every subfolder or document, because all content inherit permissions from their parent.
+As in sensenet content is stored in a huge tree with a single root, when you set a permission on a container item on a higher level (e.g. a document library or a workspace) it will be inherited by its children. This way you do not have to set permissions on every subfolder or document, because all content inherits permissions from their parent.
 
 Inherited permissions cannot be changed without breaking the inheritance, but you can set additional permissions for the same identity (e.g. grant `Open` permission to someone who already has `See` permissions inherited).
 
@@ -30,7 +30,7 @@ Sometimes you may need to set local only permissions that are not propagated to 
 
 # Settings inheritance
 
-Settings are created for administrators or editors to let them customize the behavior of a certain feature. In sensenet these settings are stored as content in the content cepository so you can take all the advantages of the tree sturcture in case of settings as well.
+Settings are created for administrators or editors to let them customize the behavior of a certain feature. In sensenet these settings are stored as content in the content repository so you can take all the advantages of the tree sturcture in case of settings as well.
 
 Settings files can be global or local. Local settings files override global ones and they are applied only on the relatead part of the content repository. Every key in a settings file is overridable in another file with the same name under an appropriate position in the subtree. For example you can use a global document preview watermark setting for the whole repository, one for a project workspace and another one for a specific document library for contracts.
 
