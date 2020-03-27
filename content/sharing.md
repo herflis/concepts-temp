@@ -12,10 +12,6 @@ It is not necessary to know much about the user you want to share a content with
 
 In case of Public sharing (see below) it is not even necessary to provide an email: it is enough to simply generate a public sharing link that you can send or post anywhere.
 
-# How do I share technically?
-
-// TODO: link to api docs
-
 # Sharing levels
 
 When you share something, you will be presented with an option for what do you want your target users to do with the content. For example a read-only access is represented by the `Open` sharing level. If we want to let users modify the content, that requires the `Edit` level.
@@ -55,14 +51,14 @@ By deleting sharing entries using the Sharing API, the previously sent sharing l
 When you share something with an email address or a known user, the system send a notification email. It will contain a sharing link that the user will be able to follow to access the content. About forwarding this email to others please see the *Sharing modes* section above.
 
 <note>
-By default the notification feature for sharing is switchen on, but is possible to switch it off globally or for a subtree or per sharing API calls (see <a href="/api-docs/sharing/#Notifications">here</a>) and customize notification emails as well. See the <i>Configuration</i> section below for details.
+By default the notification feature for sharing is switched on, but is possible to switch it off globally or for a subtree or per sharing API calls (see <a href="/api-docs/sharing/#Notifications">here</a>). Notification emails can also be customized at these levels. See the <i>Configuration</i> section below for details.
 </note>
 
 # Configuration
 
-You can switch ON or OFF notifications or customize the notification emails using the Sharing settings which can be found at `/Root/System/Settings/Sharing.settings` or in the `Setup` menu on the admin-ui.
+You can switch ON or OFF notifications and also customize the notification emails using the Sharing settings which can be found at `/Root/System/Settings/Sharing.settings` or in the `Setup` menu on the admin-ui.
 
-Having different mail subjects and bodies per subtree is possible, because the keys themselves (see below) are coming from settings.
+Having different mail subjects and bodies per subtree is possible as well, because the keys themselves (see below) are coming from settings.
 
 ```json
 {
@@ -72,6 +68,10 @@ Having different mail subjects and bodies per subtree is possible, because the k
    "NotificationMailBodyKey": "NotificationMailBody"
 }
 ```
+
+# How do I share technically?
+
+If you are interested in how to share and manage sharing related content through REST API check the [API docs](/api-docs/sharing). Every above mentioned feature and functionality is available through the API.
 
 # Sharing FAQ
 
@@ -85,8 +85,8 @@ All sharing information and permissions related to them will be removed.
 
 If there are private sharing records with this email address and no identity, we will give explicit permissions for the new user on that content. This is to make sure that if a user registers to access a content that was shared with them privately, they get a seamless user experience.
 
-### Does remain a content shared after it was deleted to the Trash?
+### Does a content remain shared after it was moved to the Trash?
 
-This is a special case when a content is not yet physically removed from the system, only deleted to the Trash. For existing users this won’t change much, they will still be able to access the content the same way as any other content.
+This is a special case when a content is not yet physically removed from the system, only moved to the Trash. For existing users this won’t change much, they will still be able to access the content the same way as any other content.
 
 For public sharing this is different: visitors will no longer access those content items - unless the documents are restored from the Trash. In that case the old public sharing links will still be working.
