@@ -25,7 +25,7 @@ To enable lifespan on a content item (for example a blog post), do the following
 - The *ValidFrom* field tells when the content item will appear. If it's left blank, it will appear immediately.
 - The *ValidTill* field tells when the content item will disappear. If it's left blank, it will never disappear.
 
-All of these fields are defined on the `GenericContent` content type so they are inherited to all other content types both built-in in custom ones.
+All of these fields are defined on the `GenericContent` content type so they are inherited to all other content types both built-in and custom ones.
 
 To enable lifespan in a query:
 - add `.LIFESPAN:ON` to the query. See [this page](/api-docs/querying/04-date#querybylifespanvalidity) for an example.
