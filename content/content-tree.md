@@ -32,7 +32,7 @@ Sometimes you may need to set local only permissions that are not propagated to 
 
 Settings are created for administrators or editors to let them customize the behavior of a certain feature. In sensenet these settings are stored as content in the content repository so you can take all the advantages of the tree sturcture in case of settings as well.
 
-Settings files can be global or local. Local settings files override global ones and they are applied only on the relatead part of the content repository. Every key in a settings file is overridable in another file with the same name under an appropriate position in the subtree. For example you can use a global document preview watermark setting for the whole repository, one for a project workspace and another one for a specific document library for contracts.
+Settings files can be global or local. Local settings files override global ones and they are applied only on the related part of the content repository. Every key in a settings file is overridable in another file with the same name under an appropriate position in the subtree. For example you can use a global document preview watermark setting for the whole repository, one for a project workspace and another one for a specific document library for contracts.
 
 # Content type inheritence
 
