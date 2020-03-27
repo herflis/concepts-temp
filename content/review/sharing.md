@@ -55,7 +55,7 @@ By deleting sharing entries using the Sharing API, the previously sent sharing l
 When you share something with an email address or a known user, the system send a notification email. It will contain a sharing link that the user will be able to follow to access the content. About forwarding this email to others please see the *Sharing modes* section above.
 
 <note>
-By default the notification feature for sharing is switchen on, but is possible to switch it off globally or for a subtree or per sharing API calls (see <a href="/api-docs/sharing/#Notifications">here</a>) and customize notification emails as well. See the <i>Configuration</i> section below for details.
+By default the notification feature for sharing is switched on, but is possible to switch it off globally or for a subtree or per sharing API calls (see <a href="/api-docs/sharing/#Notifications">here</a>). Notification emails can also be customized at these levels. See the <i>Configuration</i> section below for details.
 </note>
 
 # Configuration
@@ -85,8 +85,8 @@ All sharing information and permissions related to them will be removed.
 
 If there are private sharing records with this email address and no identity, we will give explicit permissions for the new user on that content. This is to make sure that if a user registers to access a content that was shared with them privately, they get a seamless user experience.
 
-### Does remain a content shared after it was deleted to the Trash?
+### Does a content remain shared after it was moved to the Trash?
 
-This is a special case when a content is not yet physically removed from the system, only deleted to the Trash. For existing users this won’t change much, they will still be able to access the content the same way as any other content.
+This is a special case when a content is not yet physically removed from the system, only moved to the Trash. For existing users this won’t change much, they will still be able to access the content the same way as any other content.
 
 For public sharing this is different: visitors will no longer access those content items - unless the documents are restored from the Trash. In that case the old public sharing links will still be working.
