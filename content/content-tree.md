@@ -14,11 +14,11 @@ This kind of data storage makes it possible to store content of multiple differe
 
 # Searching in subtrees
 
-sensenet's search engine provides you an easy and perfomant way to query content in the repository. You can make it even more efficient building separate subtrees for separate use cases. This way the system will only search those part of the tree that are related making the search itself much faster and efficient.
+sensenet's search engine provides you an easy and perfomant way to query content in the repository. You can make it even more efficient building separate subtrees for separate use cases. This way the system will only search those part of the tree that are related making the search itself much faster and effective.
 
 # Content access and url resolution
 
-As it is mentioned above every content in the content repository is not only identified by its unique Id but also its path. If you move a content to another folder thus change its path, so the tree structure of the repository makes it possible to use the path as a link to the content.
+As it is mentioned above every content in the content repository is not only identified by its unique id but also its path. If you move a content to another folder thus change its path, so the tree structure of the repository makes it possible to use the path as a link to the content.
 
 # Permission inheritance
 
