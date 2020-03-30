@@ -13,16 +13,6 @@ In sensenet everything is a content. Documents, tasks, users, projects, even sys
 # Basic content management actions in sensenet
 
 All the basic content management actions are available in sensenet, such as:
-- create
-- edit (update)
-- delete
-- copy
-- move
-- preview
-- share
-- search
-- upload / download
-- organize (structure)
 
 To learn more go to [Actions](/concepts/actions)
 
