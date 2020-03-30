@@ -8,11 +8,11 @@ Lifespan management is a feature which allows arbitrary content items in a sense
 
 Lifespan management in sensenet is intended to be both user-friendly and performant. This means that lifespan management can be enabled individually for any content and can be enabled for queries, but is by default disabled.
 
-The feature needs to be enabled on the content type for which lifespan management is desired by allowing the necessary fields to be shown on the user interface. If this is done, users who create items of that content (on the admin-ui or through REST API) can enable it on content items individually by fill the related fields.
+The feature needs to be enabled on the content type for which lifespan management is desired by allowing the necessary fields to be shown on the user interface. If this is done, users who create items of that content (on the admin-ui or through REST API) can enable it on content items individually by filling the related fields.
 
 ![Content scheduling fields](./img/scheduling.png)
 
-In order for lifespan management to be taken into account (e.g. display items only in a specified intervall), it needs to be explicitly enabled on the related queries to support it (by default it is disabled).
+In order for lifespan management to be taken into account (e.g. display items only in a specified interval), it needs to be explicitly enabled on the related queries to support it (by default it is disabled).
 
 # When to use it?
 
