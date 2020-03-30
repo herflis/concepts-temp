@@ -4,7 +4,7 @@ metaTitle: "sensenet - Document level Permissions"
 metaDescription: "sensenet Document level Permissions"
 ---
 
-In addition to the [role-based permission](/concepts/role-based-permissions) functionality, sensenet offers you the ability of setting permissions even on document level . Managing the accessibility of individual contents is an essential part of working with the repository. Administrators (and all users that have the permission to see and edit security settings) are allowed to change permission settings on content and influence who can see or edit, or perform a particular operation on it.
+In addition to the [role-based permission](/concepts/role-based-permissions) functionality, sensenet offers you the ability of setting permissions even on document level. Managing the accessibility of individual contents is an essential part of working with the repository. Administrators (and all users that have the permission to see and edit security settings) are allowed to change permission settings on content and influence who can see or edit, or perform a particular operation on it.
 
 # Advantages
 Using content (or document) level permissions, you can set who has access to an individual content and allow/restrict actions one by one. Since sensenet has a tree based hierarchical content structure it ensures permission inheritance, so it is enough to set a permission rule one time and it comes down in lower levels of the tree. This means, if you set a permission on a document library it will be automatically applied to subfolders and contents. You are able to set a permission for an individual document or on whole libraries and workspaces.
@@ -12,7 +12,7 @@ This can be a good solution, for example in case a certain user has the access t
 
 If you want to change the permission settings for one or more identities (or remove it completely), you have to break the permission inheritance, after that you are able to edit the permission settings for the them.
 
-Document level permission is useful when you want to give (or reject) access to an individual document for specific user or group. For example in a document library containing contracts, only those document could be available to open or download for user that are connected to them.
+Document level permission is useful when you want to give (or reject) access to an individual document for specific user or group. For example in a document library full of contracts, users only have access to the content relevant for them.
 
 # Built-in and custom permissions
 

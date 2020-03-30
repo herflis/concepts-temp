@@ -8,6 +8,7 @@ sensenet offers you a sophisticated permission system, giving you the possibilit
 
 # Advantages
 Within an organization roles are created for various job functions. Using role-based permissions, you can assign users to roles taking advantage of predefined permission settings to that role. Since users are not assigned permissions directly, but only acquire them through their role (or roles), management of individual user rights becomes a matter of simply assigning appropriate roles to the user’s account; this simplifies common operations, such as adding a user, or changing a user’s department.
+
 # Built-in and custom permissions
 There is a set of basic built-in permissions, such as See, Open, Save, Delete etc., and it is even possible to add custom ones as well.
 •	See: you only have the information that the content exists (content metadata cannot be accessed)
@@ -31,5 +32,3 @@ One of the advantages of the tree based hierarchical content structure in sensen
 
 # How to use
 It is possible to manage the role-based permission settings through the admin surface, or with User Management and Permission APIs. Define roles based on the business logic right at the beginning of your project so it will be much easier to handle permission related tasks (like add/remove a user) in the long run.
-
--> built-in roles for SNaaS users (Administrators, Editors, Developers)
