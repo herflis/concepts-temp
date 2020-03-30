@@ -22,6 +22,6 @@ There is a set of basic built-in permissions, such as:
 •	Save: you can make changes in the content metadata
 •	Other permissions for removing or approving a content or managing lists and workspaces.
 
-It is possible to add custom permissions as well. Besides the built-in permission types (See, Open, etc.) sensenet defines  some custom permission types (named Custom01, Custom02, etc.) that can be used for custom permission settings. A common example would be to allow a user to print a document (or deny it): for this developers could assign the permission type Custom1 and use it consistently in the system to check permissions and allow or disallow printing.
+It is possible to add custom permissions as well. Besides the built-in permission types (See, Open, etc.) sensenet defines  some custom permission types (named Custom01, Custom02, etc.) that can be used for custom permission settings. A common example would be to allow a user to print a document (or deny it): for this, developers could assign the permission type Custom01 and use it consistently in the system to check permissions and allow or restrict printing.
 
 It is possible to manage content (document) level permission settings through the admin surface, or with User Management and Permission APIs.
