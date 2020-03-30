@@ -6,7 +6,7 @@ metaDescription: "sensenet Role based Permissions"
 
 sensenet offers you a sophisticated permission system, giving you the possibility to apply permission rules according to the logic you prefer.
 
-# Advantage
+# Advantages
 Using role-based permissions, you can assign users to roles taking advantage of predefined permission settings.
 # Built-in and custom permissions
 There is a set of basic built-in permissions, such as See, Open, Save, Delete etc., and it is even possible to add custom ones as well.
@@ -20,8 +20,5 @@ One of the advantages of the tree based hierarchical content structure in sensen
 
 # How to use
 It is possible to manage the role-based permission settings through the admin surface, or with User Management and Permission APIs.
-
-# Pro tip
-Define roles based on the business logic right at the beginning of your project so it will be much easier to handle permission related tasks (like add/remove a user) in the long run.
 
 -> built-in roles for SNaaS users (Administrators, Editors, Developers)

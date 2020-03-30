@@ -39,34 +39,9 @@ Editors
 
 We do not have any predefined permissions for this group by default, we consider them as a middle layer between administrators and regular users. For example you can define permissions for the global Editors group for skins and renderers or content types.
 
-IdentifiedUsers
-Identified users are what the name implies: users who we know. These can be intranet users synchronized from the Active Directory or users created for your clients or partners. The membership of this group depends totally on you, the system does not add anybody to this group automatically.
 
-Operators
-
-The Operators group is used by the system in cases where an administrative task needs to be completed. For example only the members of the Operators group can modify the CreationDate property of content (e.g. when importing). We created this group to be used as a role in the system and did not add any content permissions for them by default. The Administrators group is a member of this group, but this may be changed if you want to.
-
-Operators see the PRC on pages, they have access to the Content Explorer interface (since this group is the member of the ContentExplorers group), furthermore they are entitled to the monitor pages, like: Task Management and Permission Overview.
-
-RegisteredUsers
-
-The Registered users group is a regular group, you may modify its members freely; the only specialty of it is that the sample public registration workflow adds users to it. They should have slightly less permissions than identified users (see above) because the registration can be very open in a public portal. This is why there are not many permission settings for this group in the default structure.
 
 # How to create a new role
-
-- public domain (/Root/IMS/Public) for the users
-
-- builtin domain (hidden) for technical users and groups that cannot be modified but its capabilities could be used in development
-   - Visitor
-   - Everyone
-   - Owners
-   - IdentifiedUsers
-   - RegisteredUsers
-   - Somebody
-
-   https://wiki.sensenet.com/Special_and_built-in_groups_and_users.html
-
-- built-in public groups/roles for basic tasks -> administrators, developers, editors
 
 # Permission
 sensenet offers you a sophisticated permission system, giving you the possibility to apply permission rules according to the logic you prefer.
