@@ -24,23 +24,31 @@ Settings in sensenet can be either global or local
 Global settings: stored in the /Root/System/Settings folder.
 Local settings: any folder can contain a system folder named Settings for storing settings files related only to that part of the repository that override or extend global settings.
 
--------------
+
 # setting inheritance
 
 Settings files can be global or local, as we mentioned above. Local settings files override global ones and they are applied only in that part of the Content Repository.
 
-Every key in a settings file is overridable in another file with the same name under an appropriate position in the subtree. See the following example:
+Every key in a settings file is overridable in another file with the same name under an appropriate position in the subtree.
 
-For example there is a custom application that uses MySettings. The request starts this application with Aenean semper.doc as a context node (red arrow). In this case your application's real settings are combined by the ancestor settings chain that contains three items in the following order:
+In this case your application's real settings are combined by the ancestor settings chain. 
 
-the workspace's settings (green arrow)
-the site's settings (blue arrow)
-and global settings (black arrow)
 The inheritance is realized on the file and key level: if the settings file on a lower level (which has the same name) contains only one key, only this value will be overridden; values in other files in higher levels won't be affected and will remain accessible.
 
-The examples above about accessing setting values contain a path parameter. That is the content path that the settings framework will use as the starting point when discovering the appropriate settings. If no local setting is found with that name or the given property, the fallback is always the global settings file in the /Root/System/Settings folder.
+To achieve this, the system uses a path parameter. That is the content path that the settings framework will use as the starting point when discovering the appropriate settings. If no local setting is found with that name or the given property, the fallback is always the global settings file in the /Root/System/Settings folder.
 
+# editing settings through OData
+
+Settings content can be edited through OData as any other content in the Content Repository. You have two options:
+
+- edit the whole text using the OData Upload action
+- send a POST or PATCH OData request to create or modify settings
+
+> If the settings file is in JSON format, the properties are exposed as regular fields of the settings content. This lets you access and even modify setting values directly through OData without having to edit the text. 
+? To learn more, visit the Dynamic content items article for more details [?link to dynamic content type?].
 
 https://wiki.sensenet.com/Settings
+
+------
 
 https://wiki.sensenet.com/Portal_settings
