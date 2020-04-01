@@ -47,10 +47,6 @@ Settings content can be edited through OData as any other content in the Content
 > If the settings file is in JSON format, the properties are exposed as regular fields of the settings content. This lets you access and even modify setting values directly through OData without having to edit the text. 
 ? To learn more, visit the Dynamic content items article for more details [?link to dynamic content type?].
 
-https://wiki.sensenet.com/Settings
-
-------
-
 # portal setting content
 
 In sensenet we differentiate a special kind of setting which affect the behaviour of the portal.
@@ -61,6 +57,3 @@ this can be found in the following path:
 ```
 
 In the portal settings content you can define for example the rules that apply when the portal sets the _MaxAge_ response header value for a particular content, define the MaxAge value for a set of content with _ClientCacheHeaders setting_, or even set it to all binaries requested through binaryhandler.ashx (_BinaryHandlerClientCacheMaxAge_)
-
-
-
