@@ -51,4 +51,16 @@ https://wiki.sensenet.com/Settings
 
 ------
 
-https://wiki.sensenet.com/Portal_settings
+# portal setting content
+
+In sensenet we differentiate a special kind of setting which affect the behaviour of the portal.
+
+this can be found in the following path:
+```
+/Root/System/Settings/Portal.settings
+```
+
+In the portal settings content you can define for example the rules that apply when the portal sets the _MaxAge_ response header value for a particular content, define the MaxAge value for a set of content with _ClientCacheHeaders setting_, or even set it to all binaries requested through binaryhandler.ashx (_BinaryHandlerClientCacheMaxAge_)
+
+
+
