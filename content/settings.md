@@ -14,20 +14,20 @@ In sensenet, settings are stored as content in the content repository. The advan
 
 Another advantage of storing settings as content is that you are able to provide a rich user interface for administrators to manage settings. It is possible to create or edit settings files on a dedicated ui in your solution or using OData.
 
-In general settings are created for administrators or editors to let them customize the behavior of a certain feature.
-Settings on the other hand are readable and writable by the application without restarting it. Settings files are stored in sensenet content repository.
+Additionally, Settings are readable and writable by the application without restarting it. Settings files are stored in sensenet content repository.
 
 # local and global settings
 
 Settings in sensenet can be either global or local
 
 Global settings: stored in the /Root/System/Settings folder.
+
 Local settings: any folder can contain a system folder named Settings for storing settings files related only to that part of the repository that override or extend global settings.
 
 
 # setting inheritance
 
-Settings files can be global or local, as we mentioned above. Local settings files override global ones and they are applied only in that part of the Content Repository.
+Settings files can be global or local (see above). Local settings files override global ones and they are applied only in that part of the Content Repository.
 
 Every key in a settings file is overridable in another file with the same name under an appropriate position in the subtree.
 
@@ -45,7 +45,7 @@ Settings content can be edited through OData as any other content in the Content
 - send a POST or PATCH OData request to create or modify settings
 
 > If the settings file is in JSON format, the properties are exposed as regular fields of the settings content. This lets you access and even modify setting values directly through OData without having to edit the text. 
-? To learn more, visit the Dynamic content items article for more details [?link to dynamic content type?].
+??? To learn more, visit the Dynamic content items article for more details [?link to dynamic content type?].???
 
 # portal setting content
 
