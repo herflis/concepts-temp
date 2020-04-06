@@ -18,7 +18,7 @@ Local only permission
 
 There are cases however when you do not want child content to inherit a permission entry. For example you want to allow certain users to see a content (e.g. a Content List) but you do not want them to be able to see content that were added to that list. A typical use case for this is when you allow Visitors to Open and Add content to a Form but you do not want them to be able to open any items added to the form by others. In this case you would set a local only (in other words not inherited) permission entry on the Form for Visitors. The advantage of this construct is that you do not have to break inheritance on the content (in this case the Form), which means any permission entries set on the tree above will still be inherited by child content. You can mark the permission entry as 'local-only' when you add it on the set permission page. 
 
-Document level permission is useful when you want to give (or reject) access to an individual document for specific user or group. For example in a document library full of contracts, users only have access to the content relevant for them.
+Setting permissions on document level is useful when you want to give (or reject) access to an individual document for specific user or group. For example in a document library full of contracts, users only have access to the content relevant for them.
 
 # Built-in and custom permissions
 
