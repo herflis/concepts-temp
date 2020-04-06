@@ -13,7 +13,7 @@ In sensenet everything is a content. Documents, tasks, users, projects, even sys
 
 # Basic content management actions in sensenet
 
-All the basic content management actions are available in sensenet, so you can create a content, edit or delete it, copy or move it to another folder.
+All the features that can be called basic content management actions are included in sensenet, so you can create, edit or delete a content, copy or move it to another folder.
 
 To learn more go to [Actions](/concepts/actions)
 
