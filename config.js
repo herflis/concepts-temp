@@ -56,7 +56,7 @@ const config = {
       "/webhooks",
       "/localization",
       "/logging",
-      "/document-previews"
+      "/document-previews",
     ],
 		"links": [
       { "text": "Contact", "link": "https://sensenet.com/contact"},
