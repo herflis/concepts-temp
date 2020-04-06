@@ -7,7 +7,7 @@ metaDescription: "sensenet Role based Permissions"
 sensenet offers you a sophisticated permission system, giving you the possibility to apply permission rules according to the logic you prefer.
 
 # Advantages
-Within an organization roles are created for various job functions. Using role-based permissions, you can assign users to roles taking advantage of predefined permission settings to that role. Since users are not assigned permissions directly, but only acquire them through their role (or roles), management of individual user rights becomes a matter of simply assigning appropriate roles to the user’s account; this simplifies common operations, such as adding a user, or changing a user’s department.
+Within an organization roles are created for various job functions. Using role-based permissions, you can assign users to roles taking advantage of predefined permission settings to that role. Since permissions are not directly assigned to users, they only acquire them through their role (or roles), management of individual user rights becomes a matter of simply assigning appropriate roles to specific users; this simplifies common operations, such as adding a new user, or changing a user’s department.
 
 # Built-in and custom permissions
 There is a set of basic built-in permissions, such as See, Open, Save, Delete etc., and it is even possible to add custom ones as well.
@@ -16,15 +16,17 @@ There is a set of basic built-in permissions, such as See, Open, Save, Delete et
 •	Save: you can make changes in the content metadata
 •	Other permissions for removing or approving a content or managing lists and workspaces.
 
-as mentioned above, the built-in permission set can be extended with custom ones. These permissions are by default hidden from the UI and have no effect on permission checks but a builder or developer can easily bring custom permissions into the set of effective permissions.
+as mentioned above, the built-in permission set can be extended with custom ones as well.
 
 # Built-in roles for SNaaS users
 
-- Administrators:
+- Administrators: Administrators considered to be the most powerful users in the system. This may be true for some features but not necessarily for all content. In the default structure, administrators have access to everything, but when you build your project and add your custom content, it is perfectly fine if you hide something from the Administrators group. For example you may remove their permissions from confidential documents completely.
 
-- Editors
+By default only the Admin user is a member of this group, but you can add more members as you like. Please use this group for administrative permissions instead of single users.
 
-- Developers
+- Editors: We do not have any predefined permissions for this group by default, we consider them as a middle layer between administrators and regular users. For example you can define permissions for the global Editors group for skins and renderers or content types.
+
+- Developers: We created this group to help developers work in the development phase of a new project. Group members will see the PRC on the pages, will have access to the Content Explorer. By the default installation the group is the member of the Administrators group.
 
 
 # Permission inheritance

@@ -10,7 +10,13 @@ In addition to the [role-based permission](/concepts/role-based-permissions) fun
 Using content (or document) level permissions, you can set who has access to an individual content and allow/restrict actions one by one. Since sensenet has a tree based hierarchical content structure it ensures permission inheritance, so it is enough to set a permission rule one time and it comes down in lower levels of the tree. This means, if you set a permission on a document library it will be automatically applied to subfolders and contents. You are able to set a permission for an individual document or on whole libraries and workspaces.
 This can be a good solution, for example in case a certain user has the access to a workspace, but not to a certain folder or document in that workspace.
 
-If you want to change the permission settings for one or more identities (or remove it completely), you have to break the permission inheritance, after that you are able to edit the permission settings for the them.
+Breaking the inheritance
+
+If you want to change the permission settings for one or more identities (or remove it completely), you have to break the permission inheritance, after that you are able to edit the permission settings for them.
+
+Local only permission
+
+There are cases however when you do not want child content to inherit a permission entry. For example you want to allow certain users to see a content (e.g. a Content List) but you do not want them to be able to see content that were added to that list. A typical use case for this is when you allow Visitors to Open and Add content to a Form but you do not want them to be able to open any items added to the form by others. In this case you would set a local only (in other words not inherited) permission entry on the Form for Visitors. The advantage of this construct is that you do not have to break inheritance on the content (in this case the Form), which means any permission entries set on the tree above will still be inherited by child content. You can mark the permission entry as 'local-only' when you add it on the set permission page. 
 
 Document level permission is useful when you want to give (or reject) access to an individual document for specific user or group. For example in a document library full of contracts, users only have access to the content relevant for them.
 
