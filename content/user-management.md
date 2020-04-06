@@ -4,15 +4,15 @@ metaTitle: "sensenet - User Management"
 metaDescription: "sensenet User Management"
 ---
 
-User management is a core function of the business, that includes user creation and assigning roles to the users. Effective user management contains adjusting the access rights of the users who change role, get promoted or leave the company. It is important to close these changes in short time, this way we can increase employee productivity.
+User management is a core function of the business, that includes user creation, rights management and assigning roles to the users. Effective user management contains adjusting the access rights of the users who change role, get promoted or leave the company. It is important to close these changes in short time, this way we can increase employee productivity.
 
 # Users and groups as content
 
-sensenet is built around content, so they are also users ang groups. Every content is built up by fields, so for example a user as content has a name field and password field (among others). The type of the content is called content type, and it defines a set of fields a content possesses, and also the behavior of it.
+sensenet is built around content, as well as users and groups. Every content is built up by fields, so for example a user as content has numerous special fields as well for storing data like their username and password (among others).
 
 # Built-in groups and users
 
-sensenet offers special and built-in groups and users by default. All users and almost all groups are stored in the /Root/IMS folder. It is possible jto create groups outside the IMS folder. These are local groups created under workspaces.
+sensenet offers special and built-in groups and users by default. All users and almost all groups are stored in the /Root/IMS folder. It is possible to create groups outside the IMS folder. These are local groups created for using individual workspaces.
 
 Built-in groups in sensenet are regular groups, meaning their membership can be freely modified. They are used in the default Content Repository structure extensively, but no hard-coded logic is built on them (except for the Administrators group, please do not delete that one). This means you can freely change or replace these groups with your own custom groups in your permission settings. The best practice however is that you build on them, using the suggested purpose in the following sections.
 
@@ -20,12 +20,15 @@ Built-in groups in sensenet are regular groups, meaning their membership can be 
 
 - builtin domain (hidden) for technical users and groups that cannot be modified but its capabilities could be used in development
 
-   - Visitor
-   - Everyone
-   - Owners
-   - IdentifiedUsers
-   - RegisteredUsers
-   - Somebody
+   - Visitor: Everybody is a visitor until logging in. Therefore you cannot log in as a Visitor user because it represents users who are not logged in. It has a couple of permission settings in the default structure for content that should be accessible for everybody. in case you are building a public website with sensenet with a subtree that contains content that should be available to browse and open publicly, you have work with Visitor and allow this technical user to see and open contents where it is necessary.
+   - Everyone: This is the largest group in the system: every single user is considered as a member of the Everyone group, except the Visitor user. This behavior cannot be changed. Please set permissions for this group carefully, as every logged in user will have access to those content. Note that you cannot set deny permissions for the Everyone group, because it would make that content inaccessible for - well, for everyone, including you. Everyone group may come in handy when you want to allow something to be used and see by every logged-in user the same way.
+   - Owners: This group is really a special group: when you set permissions for this group, it refers to the user who is the owner of a particular content. But the owner is different for every single content, and this is what this special group 'virtualizes'. The Everyone group above is easier to imagine, because it can be described as a group with many members. The Owners group on the other hand stands for the single user who is the owner of a content when evaluating permissions. This allows you to define and manage permissions in one place (on a container) that applies to a user that is different for every content inside that container.
+
+A good example of this could be the user profiles feature: all profile has its own permission settings for the Owners group, meaning every user will have permissions for their own profile section (because everybody is the owner of their own profile), but nobody has access to another users profile.
+Or you may state that identified users can upload documents into a document library but only Owners can delete contents. This means users can upload documents into the library and even see each others' documents, but everybody will be able to delete only their own documents.
+   - IdentifiedUsers: Identified users are what the name implies: users who we know. These can be intranet users synchronized from the Active Directory or users created for your clients or partners. The membership of this group depends totally on you, the system does not add anybody to this group automatically.
+   - RegisteredUsers: The Registered users group is a regular group, you may modify its members freely; the only specialty of it is that the sample public registration workflow adds users to it. They should have slightly less permissions than identified users (see above) because the registration can be very open in a public portal. This is why there are not many permission settings for this group in the default structure.
+   - Somebody: This is a low-level placeholder user for cases when we cannot find a creator/modifier user that previously existed or the currently logged in user does not have permissions to see the creator or modifier of a content. Please do not delete this user and do not try to use it as a regular user.
 
 # Built-in public groups/roles for basic tasks
 
@@ -39,34 +42,8 @@ Editors
 
 We do not have any predefined permissions for this group by default, we consider them as a middle layer between administrators and regular users. For example you can define permissions for the global Editors group for skins and renderers or content types.
 
-IdentifiedUsers
-Identified users are what the name implies: users who we know. These can be intranet users synchronized from the Active Directory or users created for your clients or partners. The membership of this group depends totally on you, the system does not add anybody to this group automatically.
 
-Operators
-
-The Operators group is used by the system in cases where an administrative task needs to be completed. For example only the members of the Operators group can modify the CreationDate property of content (e.g. when importing). We created this group to be used as a role in the system and did not add any content permissions for them by default. The Administrators group is a member of this group, but this may be changed if you want to.
-
-Operators see the PRC on pages, they have access to the Content Explorer interface (since this group is the member of the ContentExplorers group), furthermore they are entitled to the monitor pages, like: Task Management and Permission Overview.
-
-RegisteredUsers
-
-The Registered users group is a regular group, you may modify its members freely; the only specialty of it is that the sample public registration workflow adds users to it. They should have slightly less permissions than identified users (see above) because the registration can be very open in a public portal. This is why there are not many permission settings for this group in the default structure.
-
-# How to create a new role
-
-- public domain (/Root/IMS/Public) for the users
-
-- builtin domain (hidden) for technical users and groups that cannot be modified but its capabilities could be used in development
-   - Visitor
-   - Everyone
-   - Owners
-   - IdentifiedUsers
-   - RegisteredUsers
-   - Somebody
-
-   https://wiki.sensenet.com/Special_and_built-in_groups_and_users.html
-
-- built-in public groups/roles for basic tasks -> administrators, developers, editors
+- Developers: We created this group to help developers work in the development phase of a new project. Group members will see the PRC on the pages, will have access to the Content Explorer. By the default installation the group is the member of the Administrators group.
 
 # Permission
 sensenet offers you a sophisticated permission system, giving you the possibility to apply permission rules according to the logic you prefer.
