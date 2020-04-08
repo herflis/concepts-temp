@@ -8,7 +8,7 @@ https://wiki.sensenet.com/Viewing_documents_in_the_browser
 
 # introduction
 
-sensenet comes with built-in document management features like [Office online editing](/concepts/office-online-editing/) which enables the users to open Office documents from the repository and edit them directly in the browser. It is however in many cases desired to preview a content (other than Office docs) without downloading it, therefore sensenet has an integrated document preview generator that creates images of documents in the background that can be viewed in any browser.
+sensenet comes with built-in document management features like [Office online editing](/concepts/office-online-editing/) which enables the users to open Office documents from the repository and edit them directly in the browser. It is however in many cases desired to preview a content (other than Office docs) without downloading it or without using a third party software, therefore sensenet has an integrated document preview generator that creates images of documents in the background that can be viewed in any browser.
 
 # under the hood
 

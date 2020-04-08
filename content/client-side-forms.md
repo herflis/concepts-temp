@@ -16,13 +16,15 @@ You have the newly defined content type (form) but how this will be filled by us
 Every time a user fills the fields (questions) of this content and submit it, a new instance is created (filled form) containing all the answers given to the questions in the form (saved to the corresponding fields).
 
 Schemas
-???
+Fields on content types can have different types and different configurations just like questions may have on a survey. So if you have your questions you can easily select the matching types using a wide variety of field types from simple text and number fields till more complex ones containing multiple options to choose or list of links as answers. The fields can also be used to refine your questions with setting minimum or maximum values, set whether a question/field is required to fill or adding more complex rules for example for working with email addresses or phone numbers as answers and many more.
+
+Schema represents the content model of the repository, the content types you create. This schema contains all the types, their fields and field configs and could be downloaded from your repository on the fly (through OData REST API) that lets you build custom ui for your form.
 
 # Views
 
 The content is there in the repository, but how it will be visible to the users only depends on you. You can get fields and possible values by API calls and display it in your solution based on your taste and needs.
 
-You can define views for different content types, this way you can have a dedicated view for each forms (content type).
+Generating forms by content types dynamically is also possible with sensenet javascript client library that contains a  mapper (which binds fields to controls) and the required controls written in ReactJs. 
 
 # Fields
 [illustration of a custom content type with questions as fields]
@@ -34,3 +36,6 @@ Fields (of a content) can be defined on the content type definition.
 
 It is a handy use case of a custom content type since you don't need to rely on any third party service to create client side forms. All submitted forms will be saved as a new content under a specified location in your repo enabling you to analyze all the answers afterwards.
 This versatility enables you to easily define contents based on your business needs, the client side forms (presented above) is just one example of the possibilities content type methodology holds.
+
+# Forms and permissions
+-> local only permissions

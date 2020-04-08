@@ -6,13 +6,13 @@ metaDescription: "sensenet Settings"
 
 # intro
 
-sensenet has a number of modules and features that provide a way to customize their behavior by offering settings. It is an essential part of an application how it stores and handles settings and we wanted to provide a framework that is easy to use and customize at the same time enabling developers to make custom modules more flexible and easy to configure.
+sensenet has a number of modules and features that provide a way to customize their behavior by offering settings. It is an essential part of an application how it stores and handles settings. Keeping this in mind we wanted to provide a framework that is easy to use and customize, at the same time enables developers to make custom modules more flexible and easy to configure.
 
 # settings is a content too
 
 In sensenet, settings are stored as content in the content repository. The advantage of this is that changing a setting does not involve site restart and you can manage values in one central place.
 
-Another advantage of storing settings as content is that you are able to provide a rich user interface for administrators to manage settings. It is possible to create or edit settings files on a dedicated ui in your solution or using OData.
+Another advantage of storing settings as content is that you are able to provide a rich user interface for administrators to manage settings. Settings are actually json files, so it is easy to build a dedicated ui for creating or editing settings in your app or simply updating them using OData.
 
 Additionally, Settings are readable and writable by the application without restarting it. Settings files are stored in sensenet content repository.
 
