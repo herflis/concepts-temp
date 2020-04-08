@@ -14,7 +14,6 @@ In sensenet, settings are stored as content in the content repository. The advan
 
 Another advantage of storing settings as content is that you are able to provide a rich user interface for administrators to manage settings. Settings are actually json files, so it is easy to build a dedicated ui for creating or editing settings in your app or simply updating them using OData.
 
-Additionally, Settings are readable and writable by the application without restarting it. Settings files are stored in sensenet content repository.
 
 # local and global settings
 
@@ -44,7 +43,7 @@ Settings content can be edited through OData as any other content in the Content
 - edit the whole text using the OData Upload action
 - send a POST or PATCH OData request to create or modify settings
 
-> If the settings file is in JSON format, the properties are exposed as regular fields of the settings content. This lets you access and even modify setting values directly through OData without having to edit the text. 
+> Since settings files are in JSON format, the properties are exposed as regular fields of the settings content. This lets you access and even modify setting values directly through OData without having to edit the text. 
 ??? To learn more, visit the Dynamic content items article for more details [?link to dynamic content type?].???
 
 # portal setting content
