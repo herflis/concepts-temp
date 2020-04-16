@@ -18,6 +18,7 @@ The main goal of versioning is to prevent information from being overwritten or 
 The versioning system of sensenet also provides mechanisms for keeping the published version of a document under heavy editing visible to outside users, while you continue to work on the latest, draft version. In sensenet, versioning is disabled by default.
 
 # Permissions
+Talking about managing, editing documents it comes to permissions also. sensenet enables you to set permissions on role base [link] or on document level [link], and you can create custom ones [link] as well.
 
 # Under the hood
 To be able to configure this feature on the admin ui you need to have office online server and client side subscription.
