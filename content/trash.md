@@ -14,11 +14,6 @@ The size of the trash and the time frame while the contents can be recovered fro
 # Delete operation capabilities
 Delete operation allows users to transfer content (documents, folders or whole workspaces) into the Trash Bin - or delete them permanently.
 
-- delete content that go to the trash
-- delete content permanently, without using trash
-- enable or disable trash locally or globally
-- enable or disable trash for a content type
-
 Contents can be deleted through API calls, but these actions are also available on the admin ui:
 
 You can access delete action for basically every content in the doclib by clicking context menu (...) or right click on item.
