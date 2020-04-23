@@ -4,7 +4,6 @@ metaTitle: "sensenet - Document Previews"
 metaDescription: "sensenet Document Previews"
 ---
 
-https://wiki.sensenet.com/Viewing_documents_in_the_browser
 
 # introduction
 
@@ -57,4 +56,3 @@ __additional features (available through API)__
 - highlight
 - shapes
 - watermark
-
