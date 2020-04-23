@@ -25,4 +25,4 @@ The versioning system of sensenet also provides mechanisms for keeping the last 
 Talking about managing, editing documents it comes to permissions also. sensenet enables you to set permissions on role base [link] or on document level [link], and you can create custom ones [link] as well.
 
 # Under the hood
-To be able to configure this feature on the admin ui you need to have office online server and client side subscription.
+To be able to configure this feature on the admin ui you need to have office online server and client side subscription. If you have your Office Online server installed and ready the only thing you have to do is to set its url as the `OfficeOnlineUrl` in the Office Online setting on the Setup page of the admin ui.``
