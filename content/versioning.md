@@ -5,8 +5,7 @@ metaDescription: "sensenet Versioning"
 ---
 
 # What is content versioning?
-Versioning, also known as revision control, is the management of changes to documents and other information stored in a file system or repository.
-The main goal of versioning is to prevent information from being overwritten or deleted during everyday work with documents. Changes are kept track of, and a mechanism is offered to restore a particular document to a previous version.
+As mentioned above, versioning is the management of changes to documents and other information stored in a file system or repository.
 The versioning system of sensenet also provides mechanisms for keeping the published version of a document visible to non-editor users, while you continue to work on the latest, draft version.
 In sensenet, versioning is disabled by default. It can be enabled for folders or content lists, by setting the value of the Versioning Mode field. Subfolders inherit versioning settings by default. 
 When a new Content is created in the Content Repository with versioning enabled, it is assigned the initial version number, depending on the versioning mode. Changes made to the document will result in a bump of the version number, with old versions tracked for possible rollbacks.
