@@ -19,7 +19,7 @@ The preview generator implementation uses a provider approach, which means that 
 
 # supported file formats
 
-The supported document types depend on the preview generator implementation. The built-in generator (Aspose) supports the following types:
+The supported document types depend on the preview generator implementation. The built-in generator ([Aspose](https://www.aspose.com/)) supports the following types:
 
 - Microsoft Office Word documents (.doc, .docx)
 - Microsoft Office Excel workbooks (.xls, .xlsx, .xlsm, .xltm, .xltx)
@@ -34,15 +34,6 @@ The supported document types depend on the preview generator implementation. The
 
 > in every case a preview image is generated for every page/worksheet/image
 
-
-
----
-
-
-
-https://wiki.sensenet.com/Task_Management.html
-
-----
 
 # docviewer
 
@@ -67,5 +58,3 @@ __additional features (available through API)__
 - shapes
 - watermark
 
-
-meg a https://wiki.sensenet.com/Document_Viewer.html érintőlegesen

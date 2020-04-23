@@ -19,7 +19,8 @@ Another advantage of storing settings as content is that you are able to provide
 
 Settings in sensenet can be either global or local
 
-Global settings: stored in the /Root/System/Settings folder.
+Global settings: stored in the /Root/System/Settings folder or can be found on the admin ui's Setup page.
+-> screenshot
 
 Local settings: any folder can contain a system folder named Settings for storing settings files related only to that part of the repository that override or extend global settings.
 
