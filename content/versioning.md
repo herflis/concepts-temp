@@ -13,7 +13,7 @@ When a new Content is created in the Content Repository with versioning enabled,
 # Does sensenet also version content types or users?
 In sensenet everything is content (documents, tasks, users, project, content types etc.). As content types and users are content too, yes, they can be versioned. It can happen, for example, that you need to modify the fields of a content type, versioning is a good solution to keep track of the previous versions. As described above, you can enable versioning by setting the value of the Versioning Mode fiels.
 # versioning modes
-You can set the following Versioning Modes for folders:
+In sensenet versioning is disabled by default, you can enable it and set the following Versioning Modes for folders, workspaces or on any type of individual content or even for a subtree:
 
 - None: the default setting of the Root folder, no versioning.
 - Inherited: The folder inherits its versioning mode from its parent. This is the default setting for all other content.
