@@ -36,7 +36,8 @@ In this case your application's real settings are combined by the ancestor setti
 The inheritance is realized on the file and key level: if the settings file on a lower level (which has the same name) contains only one key, only this value will be overridden; values in other files in higher levels won't be affected and will remain accessible.
 
 To achieve this, the system uses a path parameter. That is the content path that the settings framework will use as the starting point when discovering the appropriate settings. If no local setting is found with that name or the given property, the fallback is always the global settings file in the /Root/System/Settings folder.
-
+The variety of settings enables a multitude of usage. Let's have watermark settings as an example. In sensenet it is possible to set a watermark globally for each and every preview image. In addition to that, you can define different watermarks for different workspaces (which will then overwrite global settings) or even set watermark to a specific doclib. 
+Watermark is just one example how versatile settings in sensenet can be, thanks mainly to hierarchical tree structure which forms the base of our content repository.
 # editing settings through OData
 
 Settings content can be edited through OData as any other content in the Content Repository. You have two options:

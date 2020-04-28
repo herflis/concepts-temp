@@ -15,6 +15,16 @@ When the user uploads or modifies a document, sensenet generates preview images 
 
 The preview generator implementation uses a provider approach, which means that you can easily use a different preview generation technology than the one that comes with sensenet. Also, this way the whole preview generation feature can be turned on and off just by a simple web.config setting.
 
+__task management server__
+Preview generation is completed on a standalone task management server letting you execute background operations in a scalable way.
+
+This server handles long-running tasks that would keep the web server busy and make the user wait for the response, or resource-consuming jobs that are even able to crash the executing process.
+
+In order to generate previews in your on-premise solution, you need to configure the task management server in your environment.
+
+__licensing__
+To use sensenet built-in generator to create preview images, an Aspose license is needed. SNaaS partners have no additional task since in this model every sensenet instance will be served by our task management servers (having all the neccessary licenses).
+If you plan to have on-prem sensenet solution, please visit [Aspose's site](https://www.aspose.com/) for more information about licensing. 
 
 # supported file formats
 

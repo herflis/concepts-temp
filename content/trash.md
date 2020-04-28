@@ -26,7 +26,11 @@ By default configuration, a confirmation popup appears, displaying content name 
 Deleted (trashed) items can be found in a specific folder having some extra parameter like retention time, quota for size and number of content. These limits can be customized.
 ![trash](./img/trasheditem.png)
 
-Actions can also be performed on a trashed item. It can be moved to a specific location (restore from trash), deleted, edited and so on.
+Content from trash could be restored to a container chosen by the user. By default this container is the original parent of the deleted content, but the restore target could be chosen freely,
+
+**important:**  type of the restored content should be allowed on the chosen container.
+
+Additional actions can also be performed on trashed items like edit or delete permanently.
 ![trash actions](./img/trash_actions.png)
 
 When deleting a trashed item, the content will be permanently deleted
@@ -85,10 +89,3 @@ if (dc != null)
 ### permissions
 
 The content moved to the trash will preserve its actual permissions and the container Trash Bag will get all its inherited permissions. This means that if you delete a content that only few users can see, other users won't see it in the trash either.
-
-# Trash - for Developers
-# Trash - for System operators
-
-https://wiki.sensenet.com/Trash
-
-és itt a links részben található cuccok
